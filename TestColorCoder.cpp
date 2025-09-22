@@ -27,7 +27,7 @@ void testReferenceFormat() {
     assert(!csv.empty());
 }
 
-int main() {
+int main_test() {
     testNumberToPair(4, TelCoColorCoder::WHITE, TelCoColorCoder::BROWN);
     testNumberToPair(5, TelCoColorCoder::WHITE, TelCoColorCoder::SLATE);
     testPairToNumber(TelCoColorCoder::BLACK, TelCoColorCoder::ORANGE, 12);
