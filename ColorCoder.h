@@ -1,5 +1,5 @@
 #pragma once
-#include "ColorPair.h"   // stays this way
+#include "ColorPair.h"
 #include <vector>
 #include <string>
 
@@ -12,4 +12,4 @@ std::vector<ColorPair> GetAllColorPairs();
 std::string FormatColorReference();
 std::string FormatColorReferenceCSV();
 
-} // namespace TelCoColorCoder
+}
